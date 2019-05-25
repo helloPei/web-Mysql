@@ -1,1 +1,2 @@
-整合Spring+SpringMVC+Mybatis+MySQL
+动态Web整合
+Spring+SpringMVC+Mybatis+MySQL
