@@ -1,2 +1,2 @@
 动态Web整合
-Spring+SpringMVC+Mybatis+MySQL
+Spring + SpringMVC + Mybatis + MySQL
