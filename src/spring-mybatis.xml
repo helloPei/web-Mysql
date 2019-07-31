@@ -46,6 +46,11 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
     	<property name="dataSource" ref="druidDataSource"/>
     	<property name="MapperLocations" value="classpath*:mapper/*Mapper.xml"/>
+    	<property name="configuration">
+			<bean class="org.apache.ibatis.session.Configuration">
+				<property name="mapUnderscoreToCamelCase" value="true" />
+			</bean>
+		</property>
     </bean>
       
     <!-- 配置MapperScanner对象(负责扫描对应的dao接口,基于接口创建代理对象)-->
